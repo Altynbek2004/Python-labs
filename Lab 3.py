@@ -71,6 +71,8 @@
 #
 # if x == x_2 or y == y_2:
 #     print("YES")
+# if x == x_2 and y == y_2:
+#     print("NO")
 # else:
 #     print("NO")
 
@@ -78,20 +80,17 @@
 
 # 7
 
-x=float(input("1 san енгізіңіз:"))
-y=float(input("2 san енгізіңіз:"))
-z=float(input("3 san енгізіңіз:"))
-d=float(input("3 san енгізіңіз:"))
+# x=int(input("Enter a number: "))
+# y=int(input("Enter a number: "))
+# x_2=int(input("Enter a number: "))
+# y_2=int(input("Enter a number: "))
 #
-# a=x+y+z/3
-#
-# if x>a:
-#     print(x)
-# if y>a:
-#     print(y)
-# if z>a:
-#     print(z)
-
+# if x == x_2 or y == y_2:
+#     print("YES")
+# if x == x_2 and y == y_2:
+#     print("NO")
+# else:
+#     print("NO")
 
 
 # 8
