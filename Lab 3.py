@@ -85,18 +85,16 @@
 # x_2=int(input("Enter a number: "))
 # y_2=int(input("Enter a number: "))
 #
-# if x == x_2 or y == y_2:
+# if x-1 == x_2 or x+1 == x_2 and y+1 == y_2 or y-1 == y_2:
 #     print("YES")
-# if x == x_2 and y == y_2:
-#     print("NO")
 # else:
 #     print("NO")
 
 
 # 8
-# x=int(input("1 san енгізіңіз:"))
-# y=int(input("2 san енгізіңіз:"))
-# z=int(input("3 san енгізіңіз:"))
+# x=int(input("1 san :"))
+# y=int(input("2 san :"))
+# z=int(input("3 san :"))
 #
 # if x>y and y<z:
 #     print(y)
