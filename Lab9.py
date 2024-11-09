@@ -67,6 +67,47 @@
 # Task 6
 # Write a code that converts an integer into a string, despite the fact that it can be used in any number system.
 
+# def int_to_base(san, negiz):
+#     if san == 0:
+#         return "0"
+#     elif negiz < 2 or negiz > 36:
+#         raise ValueError("Сандық негіз 2 мен 36 арасында болу керек")
+#
+#     digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+#     result = ""
+#     is_negative = san < 0
+#     san = abs(san)
+#
+#     while san > 0:
+#         qaldyq = san % negiz
+#         result = digits[qaldyq] + result
+#         san //= negiz
+#
+#     if is_negative:
+#         result = "-" + result
+#
+#     return result
+#
+# mani=int_to_base(45,2)
+# print(mani)
+
 # Task 7
 # You need to print the first n lines of Pascal's triangle. In this triangle, there are units at the top and on the sides, and each number inside is equal to the sum of the two numbers above it.
 
+# def print_pascals_triangle(n):
+#     triangle = []
+#
+#     for i in range(n):
+#
+#         row = [1] * (i + 1)
+#
+#         for j in range(1, i):
+#             row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j]
+#         triangle.append(row)
+#
+#     for row in triangle:
+#         print(" " * (n - len(row)), " ".join(map(str, row)))
+#
+#
+#
+# print_pascals_triangle(10)
