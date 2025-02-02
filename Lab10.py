@@ -11,15 +11,15 @@
 
 # Task 2
 # Make the number of seconds appear as days:hours:minutes:seconds.
-# seconds = int(input("Уақытты секундпен енгізіңіз: "))
-# days = seconds // 86400
-# seconds %= 86400
-# hours = seconds // 3600
-# seconds %= 3600
-# minutes = seconds // 60
-# seconds %= 60
-#
-# print("Күн:сағат:минут:секунд:",f"{days}:{hours:02}:{minutes:02}:{seconds:02}")
+seconds = int(input("Уақытты секундпен енгізіңіз: "))
+days = seconds // 86400
+seconds %= 86400
+hours = seconds // 3600
+seconds %= 3600
+minutes = seconds // 60
+seconds %= 60
+
+print("Күн:сағат:минут:секунд:",f"{days}:{hours:03}:{minutes:03}:{seconds:03}")
 
 
 # Task 3
